@@ -1,0 +1,18 @@
+
+@import './variable';
+@import './header';
+
+
+.contact
+{
+    @include flexCenter(row,lightblue);
+}
+
+.inheriat{
+    @extend header;
+    color:grayscale($color: #000000);
+    background-color: lightpink;
+    font-size: 1.4rem;
+    // simple caculator in this scss 
+    width:100% - 20%;
+}
